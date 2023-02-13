@@ -16,10 +16,6 @@
 
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=mumar5112003&show_icons=true&locale=en&layout=compact" alt="mumar5112003" /></p>
-<h1 align="center">My Certifications</h1>
-<p align="center">
-  <img src="https://github.com/mumar5112003/mumar5112003/files/10725630/react_basic.certificate.pdf" width="350" title="hover text">
-  
-</p>
+
 
 
