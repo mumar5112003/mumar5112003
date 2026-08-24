@@ -50,7 +50,6 @@ usually more interesting than the feature.
 ### Reach me
 
 [LinkedIn](https://linkedin.com/in/mumar5112003) &nbsp;·&nbsp;
-[Upwork](https://www.upwork.com/freelancers/~015b3d2b45b4f65b06) &nbsp;·&nbsp;
 [Fiverr](https://www.fiverr.com/sellers/muhammad_umar08) &nbsp;·&nbsp;
 mumar5112003@gmail.com
 
