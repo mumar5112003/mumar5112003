@@ -1,57 +1,53 @@
 ## Muhammad Umar
 
-I build AI automation for small teams. Retrieval systems that answer from your own
-documents, voice agents that qualify leads before a human picks up, and workflow
-automation that does not quietly stop working at two in the morning.
+Flutter and Node.js engineer in Lahore, Pakistan. I build offline-first mobile apps and the
+backends behind them, and I keep them running in production.
 
-Software Engineer at Punjab Sahulat Bazaars Authority in Lahore. Available for remote
-contract work.
+Most of my work lives in private repositories owned by the people who use it, so here is
+what it does.
 
-### Recent work
+### In production
 
-**[Hours](https://github.com/mumar5112003/hours)** &nbsp;·&nbsp; An automation ROI
-calculator that is honest about what automation actually costs. Prices the automatable
-share per task, the yearly running cost including upkeep hours, and the one off build,
-then tells you when the answer is no. Scroll driven interface built with GSAP.
+**Tengai POS: fiscalisation service** &nbsp;·&nbsp; Freelance. A Flutter point-of-sale app
+for retailers in Zimbabwe ([Google Play](https://play.google.com/store/apps/details?id=com.tengai.pos),
+10K+ downloads). I built the service that connects tills to the Zimbabwe Revenue Authority:
+device certificate enrolment, mutual TLS, ECDSA-signed receipts, fiscal-day close and
+Z-reports, with a retrying submission queue. I also maintain the till app.
+`NestJS` `Prisma` `PostgreSQL` `React` `Flutter`
 
-**[Flowscope](https://github.com/mumar5112003/flowscope)** &nbsp;·&nbsp; Paste an n8n
-workflow export and find out what breaks before production does. Silent failure points,
-rate limit risk in batch loops, leaked API keys, orphaned nodes, pinned test data, and
-projected monthly model spend.
+**Biometric attendance kiosks** &nbsp;·&nbsp; Built as the sole developer for a government
+authority in Punjab. A locked-down Flutter kiosk app on Android tablets with on-device face
+recognition, liveness checks and fingerprint readers, plus the server and dashboard behind it.
+Works without internet: every punch gets a unique ID on the device and syncs without duplicates.
+`Flutter` `Kotlin` `TensorFlow Lite` `Node.js` `PostgreSQL` `React`
 
-**[RefiQual](https://github.com/mumar5112003/refiqual)** &nbsp;·&nbsp; A mortgage
-pre qualification funnel and voice agent. The call follows a fixed script, the scoring
-happens in code rather than in the model so the same inputs always give the same answer,
-and the disclosure and opt out handling is built for TCPA rather than bolted on.
+**Public grocery delivery platform** &nbsp;·&nbsp; A Laravel backend with customer, store and
+rider Flutter apps that I run in production: performance work, incidents, and self-hosted maps
+(Nominatim) with Google as a fallback.
+`Laravel` `MySQL` `Flutter` `Nginx`
 
-**[DocChat](https://github.com/mumar5112003/docchat-rag)** &nbsp;·&nbsp; Ask questions of
-your own documents and get answers with citations. Hybrid BM25 and embedding retrieval
-fused with reciprocal rank, and a confidence floor so it says it does not know instead of
-inventing something.
+**Travel and expense claims** &nbsp;·&nbsp; A Flutter app that records journeys by GPS and
+calculates allowances, with a multi-level approval chain and bank payment exports.
+`Flutter` `Firebase` `React`
 
-### How I work
+### Public code
 
-Retrieval before generation. If an answer can be quoted from a source, quote it and cite
-it, because a confident wrong answer costs more than no answer.
+**[DocChat](https://github.com/mumar5112003/docchat-rag)** &nbsp;·&nbsp; Ask questions of your
+own documents and get cited answers. Hybrid BM25 and embedding retrieval with a confidence
+floor, so it says it doesn't know instead of guessing.
 
-Deterministic where it matters. Scoring, eligibility and money arithmetic belong in code.
-Models are good at language and unreliable at arithmetic, and a client who cannot
-reproduce a number will not trust the system.
+**[Flowscope](https://github.com/mumar5112003/flowscope)** &nbsp;·&nbsp; Static analysis for n8n
+workflow exports: missing retries, rate-limit risk, leaked keys, orphaned nodes.
 
-Built to fail loudly. Retries, error branches and alerts are part of the first version,
-not a follow up ticket. Most automation that "stopped working" was failing silently for
-weeks.
+**[Hours](https://github.com/mumar5112003/hours)** &nbsp;·&nbsp; An automation cost calculator
+that prices the build and the upkeep, and says when the answer is no.
 
-### Building in public
+### Stack
 
-I ship one working tool a day and write up what broke while building it. The bugs are
-usually more interesting than the feature.
+Flutter, Dart, Kotlin · Node.js, NestJS, Express, TypeScript · PostgreSQL, Prisma, MySQL,
+Firebase · Laravel / PHP · React · Linux, Nginx, GitHub Actions
 
 ### Reach me
 
-[LinkedIn](https://linkedin.com/in/mumar5112003) &nbsp;·&nbsp;
-[Fiverr](https://www.fiverr.com/sellers/muhammad_umar08) &nbsp;·&nbsp;
-mumar5112003@gmail.com
-
-**Stack:** Node, Python, n8n, OpenAI and Anthropic APIs, Vapi, vector search, Express,
-Postgres, Flutter, Laravel.
+[LinkedIn](https://linkedin.com/in/mumar5112003) &nbsp;·&nbsp; mumar5112003@gmail.com
+&nbsp;·&nbsp; Open to remote roles: Flutter / mobile, full-stack, backend
